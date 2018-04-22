@@ -1,3 +1,10 @@
+## How to set this up
+Type the following in the terminal install dependencies and serve it locally
+```
+npm i && npm start
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
