@@ -1,0 +1,52 @@
+@import "./skeleton.scss";
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.contain-all{
+  background: #f2f2f2;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+hr {
+  background-color: #c2c2c2;
+  text-align: center;
+  margin: 10px auto;
+  color: #c2c2c2;
+  width: 80%;
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+}
+
+.content-wrap {
+  min-height: 100vh;
+}
+
+
+.dashboard{
+  overflow: scroll;
+}
+
+.page{
+  padding: 3rem 2.5rem;
+  height: calc(100vh - 6rem);
+}
+
+small {
+  color: #aaaaaa
+}
+
+.card{
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 2px 5px #aaaaaa;
+  padding: 2rem 2.5rem;
+  overflow: hidden;
+}

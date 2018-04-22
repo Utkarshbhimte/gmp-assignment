@@ -1,0 +1,62 @@
+.first-card-row
+  display: grid
+  grid-template-columns: 400px 1fr
+  grid-column-gap: 3rem
+  margin-bottom: 3rem
+
+.form-row.by-three
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  grid-column-gap: 2rem
+
+label
+  small
+    display: block
+    width: calc(100% - .5rem)
+  input
+    width: calc(100% - 2.5rem)
+    padding: 1rem
+    border: 1px solid #c3c3c3
+    border-radius: .5rem
+
+.org-card
+  padding: 0 !important
+  .banner-image
+    width: 100%
+    max-height: 200px
+    object-fit: cover
+    object-position: center
+  .detail-text
+    text-align: center
+    img
+      max-width: 60px
+      margin-top: -5rem
+      border-radius: 50%
+      border: 5px solid white
+      padding: 1rem
+      background: white
+      box-shadow: 0 5px 10px -5px black
+    h5
+      margin: 0
+  .stats-bar
+    display: flex
+    justify-content: space-between
+    vertical-align: center
+    text-align: center
+    padding: 1rem
+    .stat
+      flex: 1
+    h5
+      margin: 0
+
+.team-wrap
+  height: 300px
+  overflow: scroll
+  .row
+    display: flex
+    align-items: center
+    margin: 1rem 0
+    img
+      max-width: 4rem
+      margin-right: 3rem
+      border-radius: 50%
